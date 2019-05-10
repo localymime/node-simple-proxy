@@ -1,0 +1,16 @@
+{
+  "name": "simpleproxy",
+  "version": "1.0.0",
+  "description": "Mime Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Merry",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^2.0.0",
+    "http-proxy": "^1.17.0",
+    "url": "^0.11.0"
+  }
+}
