@@ -3,6 +3,11 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+        sh 'npm install'
+      }
+    }
+    stage('Run Proxy') {
+      steps {
         sh 'node app.js'
       }
     }
