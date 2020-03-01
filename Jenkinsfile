@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Run Proxy') {
       steps {
-        sh 'node app.js'
+        sh 'nohup node app.js > output.log &'
       }
     }
     stage('Testing Proxy') {
