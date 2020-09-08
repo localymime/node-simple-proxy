@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "boxen": "^2.0.0",
-    "http-proxy": "^1.17.0",
+    "http-proxy": "^1.18.1",
     "url": "^0.11.0"
   }
 }
